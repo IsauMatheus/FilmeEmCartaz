@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>MovieInPosters</title>
+</head>
+<body>
+    <div class="container-pai">
+    <aside class="sidebar ">
+        <h2>Cinema29°</h2>
+        <div class="container-sidebar">
+            <button class="botao">
+                <i class='bx bx-time-five icons'></i>
+                <p>Dashboard</p>
+            </button>
+        </div>
+            <div class="container-sidebar">
+                <button class="botao">
+                    <i class='bx bx-bar-chart icons'></i>
+                    <p>Relatórios</p>
+                </button>
+                <ul class="lista" >
+                    <li>Relatório do cliente</li>
+                    <li>Relatório de vendas</li>
+                </ul>
+            </div>
+            <div class="container-sidebar ">
+                <button class="botao active">
+                    <i class='bx bx-bowl-rice icons'></i>
+                    <p>Concessôes</p>
+                </button>
+                <ul class="lista" >
+                    <li>Ordem</li>
+                    <li>Reembolsos</li>
+                    <li>Produtos</li>
+                    <li>Categorias</li>
+                </ul>
+            </div>
+            <div class="container-sidebar">
+                <button class="botao">
+                    <i class='bx bx-smile icons' ></i>
+                    <p>Funcionarios</p>
+                </button>
+            </div>
+    </aside>
+    <div class="nav-button-menu">
+        <button class="nav-button" onclick="togglemenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </div>
+    <nav id="aside-bar" class="aside-bar active-nav ">
+        <div class="container-nav">
+            <button class="close-button" onclick="togglemenu()">
+                <i class='bx bx-x'></i>
+            </button>
+            <h2 class="h2">Cinema29°</h2>
+            <div class="container-sidebar">
+                <button class="botao">
+                    <i class='bx bx-time-five icons'></i>
+                    <p>Dashboard</p>
+                </button>
+            </div>
+                <div class="container-sidebar">
+                    <button class="botao">
+                        <i class='bx bx-bar-chart icons'></i>
+                        <p>Relatórios</p>
+                    </button>
+                    <ul class="lista" >
+                        <li>Relatório do cliente</li>
+                        <li>Relatório de vendas</li>
+                    </ul>
+                </div>
+                <div class="container-sidebar ">
+                    <button class="botao active">
+                        <i class='bx bx-bowl-rice icons'></i>
+                        <p>Concessôes</p>
+                    </button>
+                    <ul class="lista" >
+                        <li>Ordem</li>
+                        <li>Reembolsos</li>
+                        <li>Produtos</li>
+                        <li>Categorias</li>
+                    </ul>
+                </div>
+                <div class="container-sidebar">
+                    <button class="botao">
+                        <i class='bx bx-smile icons' ></i>
+                        <p>Funcionarios</p>
+                    </button>
+                </div>
+        </div>
+    </nav>
+    <main class="header">
+        <div class="container conteudo-date-and-venue">
+            <div class="space-date-venue">
+                <div class="date-area">
+                    <i class='bx bxs-calendar icons'></i>
+                    <a href="" id="text-icons">Julho 17, 2024</a>
+                    <i class='bx bx-chevron-down icons'></i>
+                </div>
+                <div class="venue-area">
+                    <i class='bx bxs-map icons'></i>
+                    <a href="" id="text-icons">Filmes Themoviedb</a>
+                    <i class='bx bx-chevron-down icons'></i>    
+                </div>
+            </div>
+            <div class="area-usuario">
+                <i class='bx bx-chevron-down icons'></i>    
+                <a id="text-icons">Usuário</a>
+                <a href="" class="img-icon"><img src="Assets/imgs/png-clipart-computer-icons-user-abstract-logo-miscellaneous-desktop-wallpaper-removebg-preview.png" class="img-usuario" alt=""></a>
+            </div>
+        </div>
+    </main>
+</div>
+    <script src="Assets/script.js"></script>
+</body>
+</html>
